@@ -5,3 +5,6 @@ npm install
 node index.js
 ```
 You may also need nvm (version in use is 12.16.1). 
+```
+nvm use 12.16.1
+```

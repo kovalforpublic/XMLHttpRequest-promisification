@@ -11,7 +11,7 @@ exports.generateRequest = function(endpoint) {
        reject();
      }
      xhr.onload = function() {
-       if (xhr.responseText) {
+       if (xhr.readyState === 4 && xhr.status === 200) {
          resolve(xhr.responseText);
        } else {
          reject();

@@ -1,0 +1,22 @@
+{
+  "name": "xmlhttprequest-promisification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kovalforpublic/XMLHttpRequest-promisification.git"
+  },
+  "dependencies": {
+    "xmlhttprequest": "1.8.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kovalforpublic/XMLHttpRequest-promisification/issues"
+  },
+  "homepage": "https://github.com/kovalforpublic/XMLHttpRequest-promisification#readme"
+}

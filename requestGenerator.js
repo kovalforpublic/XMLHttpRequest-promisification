@@ -7,9 +7,7 @@ exports.generateRequest = function(endpoint) {
      const xhr = new XMLHttpRequest();
      xhr.open(method, baseURL + endpoint, true);
      xhr.send();
-     xhr.onerror = function() {
-       reject();
-     }
+     xhr.onerror = reject;
      xhr.onload = function() {
        if (xhr.readyState === 4 && xhr.status === 200) {
          resolve(xhr.responseText);

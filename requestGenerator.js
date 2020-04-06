@@ -9,7 +9,7 @@ exports.generateRequest = function(endpoint) {
      xhr.send();
      xhr.onerror = reject;
      xhr.onload = function() {
-       if (xhr.readyState === 4 && xhr.status === 200) {
+       if (xhr.status === 200) {
          resolve(xhr.responseText);
        } else {
          reject();
